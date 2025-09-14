@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { useCurrency } from "../../context/CurrencyContext";
+//import { useCurrency } from "../../context/CurrencyContext";
 
 interface Testimonial {
   id: number;

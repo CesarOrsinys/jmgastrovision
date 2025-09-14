@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "home": "首页",
+    "plans": "计划",
+    "testimonials": "成功案例"
+  },
+  "hero": {
+    "title": "欢迎来到 jmGastrovision",
+    "subtitle": "您的个性化餐厅管理平台"
+  },
+  "plans": {
+    "title": "套餐/价格",
+    "basic": "基础版",
+    "medium": "中级版",
+    "premium": "高级版",
+    "basePrice": "基础价格",
+    "total": "总计",
+    "subscribe": "订阅",
+    "options": {
+      "basicOption1": "订购任意套餐，48小时内免费提供二维码数字菜单。",
+      "basicOption2": "Instagram/Facebook 免费本地广告活动（仅需支付广告预算）。",
+      "basicOption3": "现成的社交媒体模板（免费 1 周）。",
+      "basicOption4": "免费优化您的 Google 我的商家，并在 7 天内教您如何在地图上显示。",
+      "mediumOption1": "二维码数字菜单设计（易于更新）",
+      "mediumOption2": "优化 Google 我的商家以吸引附近客户",
+      "mediumOption3": "每月 8 条发布（使用您提供的照片/文字制作精美设计）",
+      "mediumOption4": "1 次 Facebook/Instagram 基础广告活动（按位置定向）",
+      "premiumOption1": "社交媒体全方位管理：每月 20 条发布 + 每周 8 条限时动态",
+      "premiumOption2": "Meta 广告和 Google 广告的高级广告活动",
+      "premiumOption3": "数字客户忠诚度策略：WhatsApp 商业版 + 邮件营销 + 数字优惠券",
+      "premiumOption4": "在线评论管理（Google、TripAdvisor）",
+      "premiumOption5": "创建带有数字菜单、预订和在线点餐的着陆页或迷你网站",
+      "premiumOption6": "包含战略建议的每月指标报告"
+    }
+  },
+  "testimonials": {
+    "title": "成功案例",
+    "companyA": "公司 A",
+    "commentA": "服务卓越",
+    "companyB": "公司 B",
+    "commentB": "非常满意",
+    "companyC": "公司 C",
+    "commentC": "推荐",
+    "companyD": "公司 D",
+    "commentD": "非常专业",
+    "companyE": "公司 E",
+    "commentE": "太棒了",
+    "companyF": "公司 F",
+    "commentF": "非常好",
+    "companyG": "公司 G",
+    "commentG": "服务很好"
+  }
+}

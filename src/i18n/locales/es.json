@@ -1,0 +1,57 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "plans": "Planes",
+    "testimonials": "Casos de éxito"
+  },
+  "hero": {
+    "title": "Descubre el sabor auténtico",
+    "subtitle": "Café artesanal, ambiente acogedor y experiencias únicas.",
+    "cta": "Saber más",
+    "altTitle": "Tu rincón favorito",
+    "altSubtitle": "Ven a relajarte, trabajar o compartir un momento especial.",
+    "explorePlans": "Explorar planes"
+  },
+  "plans": {
+    "title": "Planes/Tarifas",
+    "basic": "Básico",
+    "medium": "Medio",
+    "premium": "Premium",
+    "basePrice": "Precio Base",
+    "total": "Total",
+    "subscribe": "Suscribirse",
+    "options": {
+      "basicOption1": "Menú digital QR GRATIS en 48 horas al contratar cualquiera de nuestros paquetes.",
+      "basicOption2": "Campaña de publicidad local gratuita en Instagram/Facebook (solo pagas el presupuesto del anuncio).",
+      "basicOption3": "Plantilla de redes sociales listas para usar (1 semana GRATIS).",
+      "basicOption4": "Te optimizamos tu Google My Business GRATIS y te muestro como aparecer en el mapa en 7 días.",
+      "mediumOption1": "Diseño de menú digital con QR (Fácil de Actualizar)",
+      "mediumOption2": "Optimización de Google My Búsiness para atraer clientes cercanos",
+      "mediumOption3": "8 publicaciones mensuales (diseños atractivos con fotos/textos que nos compartas)",
+      "mediumOption4": "1 campaña publicitaria básica en Facebook/Instagram (segmentada por ubicación)",
+      "premiumOption1": "Gestión integral de redes sociales: 20 publicaciones + 8 historias semanales",
+      "premiumOption2": "Campañas publicitarias avanzadas en Meta ads y Google ads",
+      "premiumOption3": "Estrategias de fidelización digital: WhatsApp Business + email marketing + cupones digitales",
+      "premiumOption4": "Gestión de reseñas online (Google, TripAdvisor)",
+      "premiumOption5": "Creación de landing page o mini web con menú digital, reservas y pedidos online",
+      "premiumOption6": "Reportes mensuales de métricas con recomendaciones estratégicas"
+    }
+  },
+  "testimonials": {
+    "title": "Casos de éxito",
+    "companyA": "Cims i Sabors",
+    "commentA": "Gracias a la estrategia digital implementada, nuestro restaurante ha pasado de ser un lugar conocido solo por clientes locales a recibir reservas de turistas de toda la región. La visibilidad en redes sociales y la optimización en Google han sido clave para este crecimiento.",
+    "companyB": "El Refugi de Canillo",
+    "commentB": "Con su ayuda, logramos transmitir la esencia de nuestra cocina de montaña a través de imágenes y campañas que conectan con el público. Ahora, incluso en temporada baja, mantenemos un flujo constante de clientes gracias a su trabajo.",
+    "companyC": "La Cazuela de Oro",
+    "commentC": "Antes apenas teníamos presencia online, pero ahora nuestras redes sociales son un escaparate vivo de nuestros platos. Las reservas han aumentado y muchos clientes nos dicen que nos encontraron gracias a las campañas publicitarias que gestionaron.",
+    "companyD": "Mesón El Encinar",
+    "commentD": "Su equipo entendió perfectamente nuestra identidad y supo reflejarla en cada publicación y anuncio. Hemos notado un incremento notable en clientes que vienen recomendados por lo que ven en internet.",
+    "companyE": "Bodega El Sarmiento",
+    "commentE": "El trabajo realizado ha potenciado nuestra imagen como bodega-restaurante. Las fotos profesionales, la gestión de reseñas y las campañas segmentadas han atraído a un público que valora la calidad y la experiencia gastronómica.",
+    "companyF": "La Terreta",
+    "commentF": "Nos ayudaron a modernizar nuestra comunicación sin perder el toque tradicional que nos caracteriza. Ahora llegamos a un público más joven y mantenemos a nuestros clientes de siempre, todo gracias a una estrategia bien pensada.",
+    "companyG": "Sabores de la Huerta",
+    "commentG": "Su asesoramiento nos permitió destacar lo mejor de nuestra cocina de proximidad. Las publicaciones y promociones han generado un aumento constante de clientes que buscan productos frescos y de calidad."
+  }
+}

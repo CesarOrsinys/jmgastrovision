@@ -1,0 +1,27 @@
+:root {
+  /* === Colores === */
+  --color-primary: #E63946;   /* rojo */
+  --color-secondary: #F6AE2D; /* amarillo/acento */
+  --color-bg: #F8F9FA;        /* fondo */
+  --color-text: #1D1D1D;      /* texto principal */
+  --color-muted: #6b7280;     /* gris secundario (puedes ajustar) */
+  --color-card-bg: #ffffff;   /* fondo de cards si quieres blanco puro */
+
+  /* === Tipografía === */
+  --font-sans: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+
+  /* === Dimensiones === */
+  --radius-card: 1rem;
+  --radius-button: 0.5rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --max-width-container: 1200px;
+
+  /* === Sombras === */
+  --shadow-card: 0 6px 18px rgba(15, 23, 42, 0.08);
+  --shadow-button: 0 4px 12px rgba(15, 23, 42, 0.08);
+}

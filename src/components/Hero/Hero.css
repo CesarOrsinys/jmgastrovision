@@ -1,0 +1,188 @@
+/* === Reset global === */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+}
+
+/* === Hero section === */
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: calc(100vh - 75px); /* Ajusta según el alto del header */
+  background-image: url('/src/assets/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+/* === Overlay oscuro para contraste === */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+/* === Slick slider ocupa todo el hero === */
+.hero-slider {
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-slider .slick-list,
+.hero-slider .slick-track {
+  height: 100%;
+  display: flex;
+}
+
+.hero-slider .slick-slide > div:first-child {
+  height: 100%;
+}
+.hero-slider .slick-slide > div:first-child > div:first-child {
+  height: 100%;
+}
+
+/* === Cada slide ocupa todo el espacio === */
+.hero-slide {
+  height: 100% !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+/* === Contenido centrado (versión anterior) === */
+.hero-center {
+  text-align: center;
+  color: white;
+  padding: 0 2rem;
+  z-index: 2;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-center h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.hero-center p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+/* === Botón CTA === */
+.cta-button {
+  padding: 0.75rem 1.5rem;
+  background-color: #E63946;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #d62828;
+}
+
+/* === Dots de navegación === */
+.hero-slider .slick-dots {
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 3;
+}
+
+.hero-slider .slick-dots li {
+  margin: 0 6px;
+}
+
+.hero-slider .slick-dots button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  font-size: 0;
+  transition: background-color 0.3s ease;
+}
+
+.hero-slider .slick-dots .slick-active button {
+  background-color: #E63946;
+}
+
+.hero-slider .slick-dots button::before {
+  content: none !important;
+  display: none !important;
+}
+
+/* === Nuevos estilos para slides dinámicos === */
+.slide-content {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex !important;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.text-block {
+  max-width: 500px;
+  text-align: right;
+  z-index: 2;
+}
+
+.text-block.right {
+  margin-right: 5%;
+}
+
+.text-block.light {
+  color: #f5f5f5;
+}
+
+.text-block.dark {
+  color: #222;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.title.accent {
+  color: #E63946;
+}
+
+.description {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}

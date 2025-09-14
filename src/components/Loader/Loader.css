@@ -1,0 +1,114 @@
+/* Fondo blanco centrado */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.spinner-container {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner {
+  position: relative;
+}
+
+/* ========= Animaciones ========= */
+@keyframes bubble {
+  0% { transform: scale(0); opacity: 0; }
+  25% { transform: scale(0.5) translate(0, 1); opacity: 0.5; }
+  50% { transform: scale(1) translate(0, -20px); opacity: 1; }
+  75% { transform: scale(1) translate(0, -30px); opacity: 1; }
+  100% { transform: scale(1) translate(0, -60px); opacity: 0; }
+}
+
+@keyframes stove {
+  0% { transform: translate(0, 1); }
+  10% { transform: translate(0, -10%) rotate(5deg); }
+  20% { transform: translate(0, 10%) rotate(-10deg); }
+  40% { transform: translate(0, -40%); }
+  95% { transform: rotate(5deg); }
+  100% { transform: translate(0,1) rotate(0deg); }
+}
+
+@keyframes stove-handle {
+  0% { transform: translate(0,1); }
+  10% { transform: translate(0, -10%) rotate(25deg); }
+  20% { transform: translate(0, 10%) rotate(-10deg); }
+  40% { transform: translate(0, -40%) rotate(10deg); }
+  100% { transform: translate(0,1); }
+}
+
+@keyframes food-2 {
+  0% { transform: translate(0); }
+  28% { transform: translate(70px, -50px); }
+  35% { transform: translate(68px, -55px) rotate(180deg); }
+  60% { transform: translate(22px, -64px) rotate(-180deg); }
+  90% { transform: translate(-7px, -8px) rotate(90deg); }
+  100% { transform: translate(0, 0); }
+}
+
+/* ========= Estilos ========= */
+.stove {
+  position: relative;
+}
+.stove--handle {
+  width: 80px;
+  height: 8px;
+  position: absolute;
+  left: -74px;
+  bottom: -65px;
+  border-top: 5px solid #000;
+  border-radius: 100%;
+  transform: rotate(15deg);
+  transform-origin: right;
+  animation: stove-handle 1500ms 250ms infinite;
+}
+.stove--base {
+  width: 100px;
+  height: 23px;
+  background-color: #000;
+  border-radius: 0 0 40px 40px;
+  position: absolute;
+  top: 50px;
+  transform-origin: left;
+  animation: stove 1500ms 250ms infinite;
+}
+
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--color-primary);
+  opacity: 1;
+  animation: bubble 2000ms infinite ease-in;
+}
+.bubble--1 { top: 32px; left: -25px; width: 15px; height: 15px; animation-delay: 200ms; }
+.bubble--2 { top: 30px; left: 10px; width: 8px; height: 8px; animation-delay: 400ms; }
+.bubble--3 { top: 3px; left: 2px; width: 10px; height: 10px; animation-delay: 600ms; }
+.bubble--4 { top: -15px; right: 8px; width: 8px; height: 8px; animation-delay: 800ms; }
+.bubble--5 { top: 5px; left: -41px; width: 10px; height: 10px; animation-delay: 1000ms; }
+.bubble--6 { top: 55px; left: -43px; width: 8px; height: 8px; animation-delay: 1200ms; }
+
+.aliment {
+  left: 13px;
+  bottom: -64px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  animation: food-2 1500ms infinite ease-in;
+}
+.aliment--1 { background-color: var(--color-secondary); }
+.aliment--2 { background-color: var(--color-primary); }
+.aliment--3 { background-color: var(--color-secondary); }
+

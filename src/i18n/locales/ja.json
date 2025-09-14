@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "home": "ホーム",
+    "plans": "プラン",
+    "testimonials": "成功事例"
+  },
+  "hero": {
+    "title": "jmGastrovisionへようこそ",
+    "subtitle": "あなたのためのパーソナライズされたレストラン管理プラットフォーム"
+  },
+  "plans": {
+    "title": "プラン/料金",
+    "basic": "ベーシック",
+    "medium": "ミディアム",
+    "premium": "プレミアム",
+    "basePrice": "基本料金",
+    "total": "合計",
+    "subscribe": "申し込む",
+    "options": {
+      "basicOption1": "いずれかのパッケージ契約で48時間以内に無料QRデジタルメニューを提供。",
+      "basicOption2": "Instagram/Facebookでの無料ローカル広告キャンペーン（広告予算のみお支払い）。",
+      "basicOption3": "すぐに使えるSNSテンプレート（1週間無料）。",
+      "basicOption4": "Googleマイビジネスを無料で最適化し、7日以内に地図に表示される方法をお教えします。",
+      "mediumOption1": "QR付きデジタルメニューのデザイン（簡単に更新可能）",
+      "mediumOption2": "近隣顧客を引き付けるためのGoogleマイビジネス最適化",
+      "mediumOption3": "月8件の投稿（提供いただいた写真/テキストを使用した魅力的なデザイン）",
+      "mediumOption4": "Facebook/Instagramでの基本広告キャンペーン1件（地域ターゲティング）",
+      "premiumOption1": "SNS完全運用：月20投稿＋週8ストーリー",
+      "premiumOption2": "Meta広告とGoogle広告での高度な広告キャンペーン",
+      "premiumOption3": "デジタル顧客ロイヤルティ戦略：WhatsApp Business＋メールマーケティング＋デジタルクーポン",
+      "premiumOption4": "オンラインレビュー管理（Google、TripAdvisor）",
+      "premiumOption5": "デジタルメニュー、予約、オンライン注文付きランディングページまたはミニサイト作成",
+      "premiumOption6": "戦略的提案付き月次指標レポート"
+    }
+  },
+  "testimonials": {
+    "title": "成功事例",
+    "companyA": "会社 A",
+    "commentA": "素晴らしいサービス",
+    "companyB": "会社 B",
+    "commentB": "とても満足",
+    "companyC": "会社 C",
+    "commentC": "おすすめ",
+    "companyD": "会社 D",
+    "commentD": "非常にプロフェッショナル",
+    "companyE": "会社 E",
+    "commentE": "素晴らしい",
+    "companyF": "会社 F",
+    "commentF": "素敵",
+    "companyG": "会社 G",
+    "commentG": "サービスが良い"
+  }
+}

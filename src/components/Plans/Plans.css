@@ -1,0 +1,56 @@
+/* Plans.css */
+
+/* Fondo de la sección */
+#plans {
+  background-color: var(--color-bg);
+  padding: var(--spacing-lg) 0;
+}
+
+/* Título */
+#plans h2 {
+  color: var(--color-text);
+  font-size: 2rem;
+  margin-bottom: var(--spacing-lg);
+}
+
+/* Tarjeta */
+div.flex.flex-wrap > div {
+  background-color: #ffffff; /* fondo sólido */
+  border-radius: var(--radius-card);
+  padding: var(--spacing-md);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+div.flex.flex-wrap > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Botón */
+button {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+  border-radius: var(--radius-button);
+  padding: var(--spacing-sm) var(--spacing-md);
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: var(--color-secondary);
+  transform: scale(1.05);
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

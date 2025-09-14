@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "home": "Accueil",
+    "plans": "Plans",
+    "testimonials": "Témoignages"
+  },
+  "hero": {
+    "title": "Bienvenue chez jmGastrovision",
+    "subtitle": "Votre plateforme personnalisée de gestion de restaurants"
+  },
+  "plans": {
+    "title": "Plans/Tarifs",
+    "basic": "Basique",
+    "medium": "Moyen",
+    "premium": "Premium",
+    "basePrice": "Prix de base",
+    "total": "Total",
+    "subscribe": "S'abonner",
+    "options": {
+      "basicOption1": "Menu numérique QR GRATUIT sous 48 heures lors de la souscription à l'un de nos forfaits.",
+      "basicOption2": "Campagne publicitaire locale gratuite sur Instagram/Facebook (vous ne payez que le budget publicitaire).",
+      "basicOption3": "Modèles de réseaux sociaux prêts à l'emploi (1 semaine GRATUITE).",
+      "basicOption4": "Nous optimisons gratuitement votre Google My Business et vous montrons comment apparaître sur la carte en 7 jours.",
+      "mediumOption1": "Conception de menu numérique avec QR (facile à mettre à jour)",
+      "mediumOption2": "Optimisation de Google My Business pour attirer les clients à proximité",
+      "mediumOption3": "8 publications mensuelles (designs attractifs avec photos/textes que vous nous fournissez)",
+      "mediumOption4": "1 campagne publicitaire basique sur Facebook/Instagram (ciblage par localisation)",
+      "premiumOption1": "Gestion complète des réseaux sociaux : 20 publications + 8 stories hebdomadaires",
+      "premiumOption2": "Campagnes publicitaires avancées sur Meta ads et Google ads",
+      "premiumOption3": "Stratégies de fidélisation digitale : WhatsApp Business + email marketing + coupons numériques",
+      "premiumOption4": "Gestion des avis en ligne (Google, TripAdvisor)",
+      "premiumOption5": "Création d'une landing page ou mini site avec menu numérique, réservations et commandes en ligne",
+      "premiumOption6": "Rapports mensuels de métriques avec recommandations stratégiques"
+    }
+  },
+  "testimonials": {
+    "title": "Témoignages",
+    "companyA": "Entreprise A",
+    "commentA": "Service excellent",
+    "companyB": "Entreprise B",
+    "commentB": "Très satisfait",
+    "companyC": "Entreprise C",
+    "commentC": "Recommandé",
+    "companyD": "Entreprise D",
+    "commentD": "Très professionnel",
+    "companyE": "Entreprise E",
+    "commentE": "Fantastique",
+    "companyF": "Entreprise F",
+    "commentF": "Génial",
+    "companyG": "Entreprise G",
+    "commentG": "Très bon service"
+  }
+}

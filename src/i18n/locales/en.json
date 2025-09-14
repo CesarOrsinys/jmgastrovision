@@ -1,0 +1,53 @@
+{
+  "menu": {
+    "home": "Home",
+    "plans": "Plans",
+    "testimonials": "Testimonials"
+  },
+  "hero": {
+    "title": "Welcome to jmGastrovision",
+    "subtitle": "Your personalized restaurant management platform"
+  },
+  "plans": {
+    "title": "Plans/Rates",
+    "basic": "Basic",
+    "medium": "Medium",
+    "premium": "Premium",
+    "basePrice": "Base Price",
+    "total": "Total",
+    "subscribe": "Subscribe",
+    "options": {
+      "basicOption1": "FREE QR digital menu within 48 hours when contracting any of our packages.",
+      "basicOption2": "Free local advertising campaign on Instagram/Facebook (you only pay the ad budget).",
+      "basicOption3": "Ready-to-use social media templates (1 week FREE).",
+      "basicOption4": "We optimize your Google My Business for FREE and show you how to appear on the map in 7 days.",
+      "mediumOption1": "Digital menu design with QR (Easy to Update)",
+      "mediumOption2": "Google My Business optimization to attract nearby customers",
+      "mediumOption3": "8 monthly posts (attractive designs with photos/texts you share with us)",
+      "mediumOption4": "1 basic advertising campaign on Facebook/Instagram (location targeted)",
+      "premiumOption1": "Full social media management: 20 posts + 8 weekly stories",
+      "premiumOption2": "Advanced advertising campaigns on Meta ads and Google ads",
+      "premiumOption3": "Digital loyalty strategies: WhatsApp Business + email marketing + digital coupons",
+      "premiumOption4": "Online review management (Google, TripAdvisor)",
+      "premiumOption5": "Creation of a landing page or mini website with digital menu, reservations, and online orders",
+      "premiumOption6": "Monthly metric reports with strategic recommendations"
+    }
+  },
+    "testimonials": {
+      "title": "Success Stories",
+      "companyA": "Company A",
+      "commentA": "Excellent service",
+      "companyB": "Company B",
+      "commentB": "Very satisfied",
+      "companyC": "Company C",
+      "commentC": "Recommended",
+      "companyD": "Company D",
+      "commentD": "Very professional",
+      "companyE": "Company E",
+      "commentE": "Fantastic",
+      "companyF": "Company F",
+      "commentF": "Great",
+      "companyG": "Company G",
+      "commentG": "Very good service"
+    }
+  }

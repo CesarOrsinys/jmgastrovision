@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
 
       {/* Copy centrado abajo */}
       <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Tu Empresa. Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Jm Gastrovision. Todos los derechos reservados.</p>
       </div>
     </footer>
   );

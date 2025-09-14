@@ -12,7 +12,7 @@ interface Testimonial {
 
 const TestimonialsSection: React.FC = () => {
   const { t } = useTranslation();
-  const { currency } = useCurrency(); // Si quieres mostrar algún valor monetario
+  //const { currency } = useCurrency(); // Si quieres mostrar algún valor monetario
   const [testimonials, setTestimonials] = useState<Testimonial[]>([]);
 
   useEffect(() => {

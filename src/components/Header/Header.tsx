@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useTranslation } from "react-i18next";
-import { useCurrency } from "../../context/CurrencyContext";
+//import { useCurrency } from "../../context/CurrencyContext";
 import "./Header.css";
 
 const Header: React.FC = () => {

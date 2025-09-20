@@ -21,20 +21,18 @@
     "total": "Total",
     "subscribe": "Suscribirse",
     "options": {
-      "basicOption1": "Menú digital QR GRATIS en 48 horas al contratar cualquiera de nuestros paquetes.",
-      "basicOption2": "Campaña de publicidad local gratuita en Instagram/Facebook (solo pagas el presupuesto del anuncio).",
-      "basicOption3": "Plantilla de redes sociales listas para usar (1 semana GRATIS).",
-      "basicOption4": "Te optimizamos tu Google My Business GRATIS y te muestro como aparecer en el mapa en 7 días.",
-      "mediumOption1": "Diseño de menú digital con QR (Fácil de Actualizar)",
-      "mediumOption2": "Optimización de Google My Búsiness para atraer clientes cercanos",
-      "mediumOption3": "8 publicaciones mensuales (diseños atractivos con fotos/textos que nos compartas)",
-      "mediumOption4": "1 campaña publicitaria básica en Facebook/Instagram (segmentada por ubicación)",
-      "premiumOption1": "Gestión integral de redes sociales: 20 publicaciones + 8 historias semanales",
-      "premiumOption2": "Campañas publicitarias avanzadas en Meta ads y Google ads",
-      "premiumOption3": "Estrategias de fidelización digital: WhatsApp Business + email marketing + cupones digitales",
-      "premiumOption4": "Gestión de reseñas online (Google, TripAdvisor)",
-      "premiumOption5": "Creación de landing page o mini web con menú digital, reservas y pedidos online",
-      "premiumOption6": "Reportes mensuales de métricas con recomendaciones estratégicas"
+      "basicOption1": "Generación de imágenes para publicaciones (5 imágenes al mes).",
+      "basicOption2": "Chatbot básico en WhatsApp o Facebook (FAQ y horarios).",
+      "basicOption3": "Análisis automático de reseñas (positivo/negativo, alertas rápidas).",
+      "mediumOption1": "Asistente de reservas (WhatsApp/Instagram/web).",
+      "mediumOption2": "Copys para redes sociales (hasta 12 textos al mes.)",
+      "mediumOption3": "Traducción automática del menú y publicaciones.",
+      "mediumOption4": "Predicción de horarios de mayor afluencia.",
+      "premiumOption1": "Chatbot avanzado multicanal (WhatsApp, Web, Facebook, Instagram).",
+      "premiumOption2": "Análisis de sentimiento en tiempo real de redes y reseñas.",
+      "premiumOption3": "Generador de campañas publicitarias (audiencias + copies + creativos).",
+      "premiumOption4": "Recomendador de platos en el menú digital.",
+      "premiumOption5": "Dashboard predictivo (ventas, reservas, engagement)."
     }
   },
   "testimonials": {

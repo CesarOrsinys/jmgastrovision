@@ -13,10 +13,10 @@ const PlansSection: React.FC = () => {
       description: t("plans.basicDesc"),
       onlyOne: true,
       options: [
-        { key: "basicOption1", label: t("plans.options.basicOption1"), price: 45 },
-        { key: "basicOption2", label: t("plans.options.basicOption2"), price: 30 },
-        { key: "basicOption3", label: t("plans.options.basicOption3"), price: 60 },
-        { key: "basicOption4", label: t("plans.options.basicOption4"), price: 25 }
+        { key: "basicOption1", label: t("plans.options.basicOption1"), price: 0 },
+        { key: "basicOption2", label: t("plans.options.basicOption2"), price: 0 },
+        { key: "basicOption3", label: t("plans.options.basicOption3"), price: 0 }
+        //{ key: "basicOption4", label: t("plans.options.basicOption4"), price: 0 }
       ]
     },
     {
@@ -26,10 +26,10 @@ const PlansSection: React.FC = () => {
       description: t("plans.mediumDesc"),
       onlyOne: false,
       options: [
-        { key: "mediumOption1", label: t("plans.options.mediumOption1"), price: 80 },
-        { key: "mediumOption2", label: t("plans.options.mediumOption2"), price: 55 },
-        { key: "mediumOption3", label: t("plans.options.mediumOption3"), price: 40 },
-        { key: "mediumOption4", label: t("plans.options.mediumOption4"), price: 70 }
+        { key: "mediumOption1", label: t("plans.options.mediumOption1"), price: 59 },
+        { key: "mediumOption2", label: t("plans.options.mediumOption2"), price: 39 },
+        { key: "mediumOption3", label: t("plans.options.mediumOption3"), price: 25 },
+        { key: "mediumOption4", label: t("plans.options.mediumOption4"), price: 49 }
       ]
     },
     {
@@ -39,12 +39,12 @@ const PlansSection: React.FC = () => {
       description: t("plans.premiumDesc"),
       onlyOne: false,
       options: [
-        { key: "premiumOption1", label: t("plans.options.premiumOption1"), price: 120 },
-        { key: "premiumOption2", label: t("plans.options.premiumOption2"), price: 95 },
-        { key: "premiumOption3", label: t("plans.options.premiumOption3"), price: 110 },
-        { key: "premiumOption4", label: t("plans.options.premiumOption4"), price: 85 },
-        { key: "premiumOption5", label: t("plans.options.premiumOption5"), price: 60 },
-        { key: "premiumOption6", label: t("plans.options.premiumOption6"), price: 75 }
+        { key: "premiumOption1", label: t("plans.options.premiumOption1"), price: 99 },
+        { key: "premiumOption2", label: t("plans.options.premiumOption2"), price: 79 },
+        { key: "premiumOption3", label: t("plans.options.premiumOption3"), price: 129 },
+        { key: "premiumOption4", label: t("plans.options.premiumOption4"), price: 69 },
+        { key: "premiumOption5", label: t("plans.options.premiumOption5"), price: 149 },
+        //{ key: "premiumOption6", label: t("plans.options.premiumOption6"), price: 75 }
       ]
     }
   ];

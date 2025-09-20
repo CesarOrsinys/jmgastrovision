@@ -22,32 +22,32 @@ const Hero: React.FC = () => {
       const mockData: Slide[] = [
         {
           id: 1,
-          title: "Descubre el sabor auténtico",
-          description: "Café artesanal, ambiente acogedor y experiencias únicas.",
+          title: "De la cocina al corazón de tu cliente",
+          description: "Transformamos tu pasión gastronómica en una marca irresistible.",
           //buttonText: "Saber más"
         },
         {
           id: 2,
-          title: "Tu rincón favorito",
-          description: "Relájate, trabaja o comparte un momento especial.",
+          title: "Llevamos tu cocina al mundo digital",
+          description: " Estrategias creativas para posicionar tu marca gastronómica.",
           //buttonText: "Saber más"
         },
         {
           id: 3,
-          title: "Explora nuestros blends",
-          description: "Sabores intensos, suaves y equilibrados para cada gusto."
+          title: "Haz que tu negocio conquiste online",
+          description: "Marketing pensado para crear experiencias que enamoran a tus clientes."
           // 🔑 sin botón
         },
         {
           id: 4,
-          title: "Más que café",
-          description: "Eventos, música en vivo y comunidad.",
+          title: "Unimos sabores y estrategias",
+          description: "Crecemos contigo, conectando tu marca con tu comunidad digital.",
           //buttonText: "Saber más"
         },
         {
           id: 5,
-          title: "Bienvenido a JWD",
-          description: "Tu misión favorita para cada momento del día."
+          title: "Tus ventas en la mesa del éxito",
+          description: "Impulsamos tu negocio gastronómico con resultados medibles."
           // 🔑 sin botón
         }
       ];

@@ -11,7 +11,7 @@ const PlansSection: React.FC = () => {
       name: t("plans.basic"),
       basePrice: 0,
       description: t("plans.basicDesc"),
-      onlyOne: true, // 👈 Solo una opción a la vez
+      onlyOne: true,
       options: [
         { key: "basicOption1", label: t("plans.options.basicOption1"), price: 45 },
         { key: "basicOption2", label: t("plans.options.basicOption2"), price: 30 },
@@ -51,8 +51,46 @@ const PlansSection: React.FC = () => {
 
   const [activeIndex, setActiveIndex] = useState(1);
 
+  // 👉 Swipe handling
+  const [touchStartX, setTouchStartX] = useState<number | null>(null);
+  const [touchEndX, setTouchEndX] = useState<number | null>(null);
+
+  const handleTouchStart = (e: React.TouchEvent) => {
+    setTouchStartX(e.targetTouches[0].clientX);
+    setTouchEndX(null);
+  };
+
+  const handleTouchMove = (e: React.TouchEvent) => {
+    setTouchEndX(e.targetTouches[0].clientX);
+  };
+
+  const handleTouchEnd = () => {
+    if (!touchStartX || !touchEndX) return;
+
+    const distance = touchStartX - touchEndX;
+
+    if (distance > 50) {
+      // swipe izquierda → siguiente plan
+      setActiveIndex((prev) => Math.min(prev + 1, plansData.length - 1));
+    }
+
+    if (distance < -50) {
+      // swipe derecha → plan anterior
+      setActiveIndex((prev) => Math.max(prev - 1, 0));
+    }
+
+    setTouchStartX(null);
+    setTouchEndX(null);
+  };
+
   return (
-    <section id="plans" className="py-14 px-4 flex flex-col items-center">
+    <section
+      id="plans"
+      className="py-14 px-4 flex flex-col items-center"
+      onTouchStart={handleTouchStart}
+      onTouchMove={handleTouchMove}
+      onTouchEnd={handleTouchEnd}
+    >
       <h2 className="text-2xl font-bold mb-8">{t("plans.title")}</h2>
 
       <div className="relative w-full flex justify-center items-center overflow-hidden h-120 text-xs">

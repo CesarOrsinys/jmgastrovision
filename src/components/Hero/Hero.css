@@ -11,8 +11,7 @@ body {
 .hero-section {
   position: relative;
   width: 100%;
-  height: calc(100vh - 75px); /* Ajusta según el alto del header */
-  background-image: url('/src/assets/hero-bg.jpg');
+  height: calc(100vh - 75px);
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -29,7 +28,7 @@ body {
   z-index: 1;
 }
 
-/* === Slick slider ocupa todo el hero === */
+/* === Slick slider === */
 .hero-slider {
   height: 100%;
   position: relative;
@@ -49,37 +48,48 @@ body {
   height: 100%;
 }
 
-/* === Cada slide ocupa todo el espacio === */
-.hero-slide {
-  height: 100% !important;
-  width: 100% !important;
+/* === Cada slide === */
+.slide-content {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
   display: flex !important;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;   /* 🔑 arriba */
+  justify-content: flex-start; /* 🔑 no centrado */
+  padding: 2rem 1rem;
   box-sizing: border-box;
+  position: relative; /* 🔑 para text-block absoluto en desktop */
 }
 
-/* === Contenido centrado (versión anterior) === */
-.hero-center {
-  text-align: center;
-  color: white;
-  padding: 0 2rem;
+/* === Bloque de texto (Mobile) === */
+.text-block {
+  max-width: 500px;
+  text-align: left;
   z-index: 2;
   position: relative;
-  max-width: 800px;
-  margin: 0 auto;
+  margin-top: 2rem;  /* 🔑 margen desde arriba */
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6); /* 🔑 sombra para visibilidad */
+  color: #fff;
 }
 
-.hero-center h2 {
-  font-size: 3rem;
+.text-block.light { color: #f5f5f5; }
+.text-block.dark { color: #222; }
+.text-block.white { color: #fff; }
+.text-block.black { color: #000; }
+
+.title {
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
 
-.hero-center p {
-  font-size: 1.25rem;
-  margin-bottom: 2rem;
+.title.accent { color: #E63946; }
+
+.description {
+  font-size: 1.125rem;
+  margin-bottom: 1.5rem;
   line-height: 1.6;
 }
 
@@ -94,12 +104,9 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+.cta-button:hover { background-color: #d62828; }
 
-.cta-button:hover {
-  background-color: #d62828;
-}
-
-/* === Dots de navegación === */
+/* === Dots === */
 .hero-slider .slick-dots {
   position: absolute;
   bottom: 30px;
@@ -113,11 +120,7 @@ body {
   padding: 0;
   z-index: 3;
 }
-
-.hero-slider .slick-dots li {
-  margin: 0 6px;
-}
-
+.hero-slider .slick-dots li { margin: 0 6px; }
 .hero-slider .slick-dots button {
   width: 12px;
   height: 12px;
@@ -129,60 +132,69 @@ body {
   font-size: 0;
   transition: background-color 0.3s ease;
 }
+.hero-slider .slick-dots .slick-active button { background-color: #E63946; }
+.hero-slider .slick-dots button::before { content: none !important; display: none !important; }
 
-.hero-slider .slick-dots .slick-active button {
-  background-color: #E63946;
-}
+/* === Fondos responsive === */
+.slide-1 { background-image: url('/hero/image_1_425x792.jpg'); }
+@media (min-width: 768px) { .slide-1 { background-image: url('/hero/image_1_1920x1080.jpg'); } }
 
-.hero-slider .slick-dots button::before {
-  content: none !important;
-  display: none !important;
-}
+.slide-2 { background-image: url('/hero/image_2_425x792.jpg'); }
+@media (min-width: 768px) { .slide-2 { background-image: url('/hero/image_2_1920x1080.jpg'); } }
 
-/* === Nuevos estilos para slides dinámicos === */
-.slide-content {
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  display: flex !important;
-  align-items: center;
-  justify-content: flex-end;
-  padding: 2rem;
-  box-sizing: border-box;
-}
+.slide-3 { background-image: url('/hero/image_3_425x792.jpg'); }
+@media (min-width: 768px) { .slide-3 { background-image: url('/hero/image_3_1920x1080.jpg'); } }
 
-.text-block {
-  max-width: 500px;
-  text-align: right;
-  z-index: 2;
-}
+.slide-4 { background-image: url('/hero/image_4_425x792.jpg'); }
+@media (min-width: 768px) { .slide-4 { background-image: url('/hero/image_4_1920x1080.jpg'); } }
 
-.text-block.right {
-  margin-right: 5%;
-}
+.slide-5 { background-image: url('/hero/image_5_425x792.jpg'); }
+@media (min-width: 768px) { .slide-5 { background-image: url('/hero/image_5_1920x1080.jpg'); } }
 
-.text-block.light {
-  color: #f5f5f5;
-}
+/* === Posiciones desktop personalizadas === */
+@media (min-width: 768px) {
+  /* Slide 1: Arriba derecha */
+  .slide-1 .text-block {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+    color: #fff;
+  }
 
-.text-block.dark {
-  color: #222;
-}
+  /* Slide 2: Arriba derecha, blanco */
+  .slide-2 .text-block {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+    color: #fff;
+  }
 
-.title {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  line-height: 1.2;
-}
+  /* Slide 3: Arriba izquierda, blanco */
+  .slide-3 .text-block {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: left;
+    color: #fff;
+  }
 
-.title.accent {
-  color: #E63946;
-}
+  /* Slide 4: Arriba derecha, negro */
+  .slide-4 .text-block {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    text-align: right;
+    color: #000;
+  }
 
-.description {
-  font-size: 1.125rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
+  /* Slide 5: Arriba izquierda, blanco */
+  .slide-5 .text-block {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    text-align: left;
+    color: #fff;
+  }
 }
